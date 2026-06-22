@@ -1,0 +1,17 @@
+name: Draw keymap
+
+on:
+  push:
+    paths:
+      - 'config/*.keymap'
+      - '.github/workflows/draw-keymap.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  draw:
+    uses: nickcoutsos/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    with:
+      output_folder: keymap-drawer
