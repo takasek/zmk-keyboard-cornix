@@ -12,6 +12,6 @@ permissions:
 
 jobs:
   draw:
-    uses: nickcoutsos/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
     with:
       output_folder: keymap-drawer
