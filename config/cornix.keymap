@@ -47,7 +47,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LSHFT>, <&caps_word>;
+            bindings = <&sk LSHFT>, <&caps_word>;
         };
         td_paren: td_paren {
             compatible = "zmk,behavior-tap-dance";
